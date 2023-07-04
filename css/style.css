@@ -1075,6 +1075,7 @@ a.ui-button:active,
 }
 
 .menu-set__list {
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1086,6 +1087,7 @@ a.ui-button:active,
       -ms-flex-pack: start;
           justify-content: flex-start;
   gap: 24px;
+  max-width: 500px;
 }
 
 .menu-set__link {
@@ -4420,6 +4422,7 @@ a.ui-button:active,
 
   .menu-set__list {
     gap: 64px;
+    max-width: 668px;
   }
 
   .menu-set__link {
@@ -5143,6 +5146,10 @@ a.ui-button:active,
     padding-top: 254px;
     padding-bottom: 269px;
     background-size: 1920px 900px;
+  }
+
+  .menu-set__list {
+    max-width: 1330px;
   }
 
   .menu-set__link {
