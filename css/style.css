@@ -173,7 +173,7 @@ img {
   padding: 8px 24px;
   text-align: center;
   font-family: var(--title-fonts);
-  font-size: 10px;
+  font-size: 16px;
   line-height: 1.7;
   cursor: pointer;
   color: #0c0b08;
@@ -2525,10 +2525,11 @@ a.ui-button:active,
 
 .serving__link {
   display: block;
-  width: 110px;
+  width: 120px;
 }
 
 .serving__btn {
+  padding: 8px 6px;
   color: var(--title-text-color);
   background: transparent;
   border: 1px solid var(--main-color);
