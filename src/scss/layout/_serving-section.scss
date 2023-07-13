@@ -43,13 +43,14 @@
     }
     &__link {
         display: block;
-        width: 110px;
+        width: 120px;
         @media screen and (min-width: 1330px) {
             height: 44px;
             width: 137px;
         }
     }
     &__btn {
+        padding: 8px 6px;
         color: var(--title-text-color);
         background: transparent;
         border: 1px solid var(--main-color);
