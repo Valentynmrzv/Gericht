@@ -173,6 +173,11 @@
   &__btn {
     padding: 8px 4px;
     @media screen and (min-width: 768px) {
+      width: 100px;
+    }
+  
+    @media screen and (min-width: 1330px) {
+      width: 150px;
       padding: 8px 24px;
     }
   }
